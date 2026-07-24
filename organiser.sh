@@ -8,7 +8,6 @@ fi
 
 # Timestamp generation
 timestamp=$(date +"%Y%m%d_%H%M%S")
-echo "Timestamp: $timestamp"
 
 # Rename grades.csv
 if [ -f  "grades.csv" ]; then
