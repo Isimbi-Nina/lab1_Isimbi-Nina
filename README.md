@@ -1,7 +1,7 @@
 # Lab 1: Grade Evaluator & Archiver
 
 ## Files
-- `grade-evaluator.py` — Reads `grades.csv`, validates scores/weights, calculates GPA, determines Pass/Fail status, and reports formative assignment(s) eligible for resubmission.
+- `grade-evaluator.py` — Reads `grades.csv`, validates scores/weights, calculates GPA, determines Pass/Fail status, and reports formative assignments eligible for resubmission.
 - `organiser.sh` — Archives the current `grades.csv` with a timestamp, resets the workspace with a fresh empty `grades.csv`, and logs the action to `organiser.log`.
 - `grades.csv` — Sample grade data used for testing.
 
