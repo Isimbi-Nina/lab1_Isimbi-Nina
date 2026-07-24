@@ -32,11 +32,11 @@ script will report a validation error and exit.
 
 1. Make the script executable (first time only):
    ```bash
-   chmod +x organizer.sh
+   chmod +x organiser.sh
    ```
 2. Run it from the folder containing `grades.csv`:
    ```bash
-   ./organizer.sh
+   ./organiser.sh
    ```
 3. What it does:
    - Creates an `archive/` folder if one doesn't already exist.
@@ -45,5 +45,5 @@ script will report a validation error and exit.
    - Creates a brand-new, empty `grades.csv` in the current directory so the
      workspace is ready for the next batch of grades.
    - Appends a record of the run (timestamp, original filename, archived filename)
-     to `organizer.log`, which accumulates entries across every run.
+     to `organiser.log`, which accumulates entries across every run.
 
