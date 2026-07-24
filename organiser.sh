@@ -18,7 +18,7 @@ else
 fi
 
 touch grades.csv
-echo "New file 'grades.csv' created."
+
 
 #Logging timestamp, original file name and new file name to organiser.log
 log_file="organiser.log"
