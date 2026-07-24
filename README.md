@@ -2,12 +2,11 @@
 
 ## Files
 - `grade-evaluator.py` — Reads `grades.csv`, validates scores/weights, calculates GPA, determines Pass/Fail status, and reports formative assignment(s) eligible for resubmission.
-- `organizer.sh` — Archives the current `grades.csv` with a timestamp, resets the workspace with a fresh empty `grades.csv`, and logs the action to `organizer.log`.
+- `organiser.sh` — Archives the current `grades.csv` with a timestamp, resets the workspace with a fresh empty `grades.csv`, and logs the action to `organiser.log`.
 - `grades.csv` — Sample grade data used for testing.
 
 ## Requirements
 - Python 3
-- Bash (Linux/macOS/WSL)
 
 ## How to run the Python application
 
@@ -41,7 +40,7 @@ script will report a validation error and exit.
    ```
 3. What it does:
    - Creates an `archive/` folder if one doesn't already exist.
-   - Renames `grades.csv` to `grades_<TIMESTAMP>.csv` (e.g. `grades_20260724-101530.csv`)
+   - Renames `grades.csv` to `grades_<TIMESTAMP>.csv` (e.g. `grades_20260724-195238.csv`)
      and moves it into `archive/`.
    - Creates a brand-new, empty `grades.csv` in the current directory so the
      workspace is ready for the next batch of grades.
